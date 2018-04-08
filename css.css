@@ -1,0 +1,43 @@
+body {
+    padding-top: 325px;
+    position:relative;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+
+
+.jumbotron {
+    background: rgba(1,1,1,0.5);
+    color: white;
+}
+
+.index {
+    background-image: url("https://images.unsplash.com/photo-1501631454901-2fe040439c00?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4506cac8e37ae65e1f1ba9f62ef90e0c&auto=format&fit=crop&w=1286&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.row {
+    padding-top: 15px
+}
+
+#foot-text {
+    margin-bottom: 0;
+}
+
+.footer {
+    background: rgba(1,1,1,0.5);
+    color: white;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+
+
+
+
