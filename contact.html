@@ -13,7 +13,6 @@
 </head>
 
 <body class="index">
-    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
         <a class="navbar-brand" href="#"><img style="width:45px;"src="bec.jpg"/></a>
@@ -21,48 +20,58 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
-               
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="aboutme.html">About Me</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-           <!-- <ul class="nav navbar-nav navbar-right">
+            <!-- <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item">
-                    <a class="nav-link" href="signup.html">Sign Up</a>
+                    <a class="nav-link" href="#">Sign Up</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="login.html">Log In</a>
                 </li>
             </ul> -->
         </div>
-    </nav>
 
-    <!-- Jumbotron -->
+    </nav>
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="text-center"><i class="fas fa-camera-retro"></i> Bec's Photograhy</h1>
-            <p class="text-center">Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</p>
-        </div>
+        <form>
+            <div class="form-group row justify-content-center">
+                <div class="col-md-4">
+                    <label for="exampleInputEmail1"><strong>Email address</strong></label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" value="">
+                    <small id="emailHelp" class="form-text"><strong>We'll never share your email with anyone else.</strong></small>
+                </div>
+            </div>
+            <div class="form-group row justify-content-center">
+                <div class="col-md-4">
+                    <label for="exampleTextarea"><strong>How can I help?</strong></label>
+                    <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+                    <button style="margin-top: 5px;" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+
+        </form>
     </div>
 
+
     <!-- Footer -->
-   <div class="footer text-center">
-       <div class="col-sm-12">
-          <p id="foot-text">Lets Connect!</p>
-           <i class="fab fa-facebook-f fa-fw fa-lg"></i> | <i class="fab fa-instagram fa-fw fa-lg"></i> | <i class="fab fa-twitter fa-fw fa-lg"></i><br />
-           <i class="far fa-copyright fa-xs"></i> <span id="foot-text">Bec's Photography</span>
-       </div>
-   </div>
-
+    <div class="footer text-center">
+        <div class="col-sm-12">
+            <p id="foot-text">Lets Connect!</p>
+            <i class="fab fa-facebook-f fa-fw fa-lg"></i> | <i class="fab fa-instagram fa-fw fa-lg"></i> | <i class="fab fa-twitter fa-fw fa-lg"></i><br />
+            <i class="far fa-copyright fa-xs"></i> <span id="foot-text">Bec's Photography</span>
+        </div>
+    </div>
 </body>
-
 </html>
